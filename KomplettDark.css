@@ -129,7 +129,7 @@
     .caas .campaign-content .newsletter {
         background-color: rgb(71, 100, 113) !important;
     }
-    /*Handlevågn*/
+    /*Handlevogn*/
     /*header*/
     .caas #cart-page-react .cart-header {
         background-color: #0d101e;
@@ -356,11 +356,11 @@
             color: #00BCD4;
         }
     /*Front page*/
-    /*salg før pris*/
+    /*salg fÃ¸r pris*/
     .caas .product-price-before {
         color: #ff6fa0;
     }
-    /*salg nå pris*/
+    /*salg nÃ¥ pris*/
     .caas .product-price-now-label, .product-price-now {
         color: lime !important;
     }
@@ -635,5 +635,15 @@
     /*Disclaimer komplett pank*/
     .disclaimer-area {
         background-color: #7caac7;
+    }
+
+    /* Komplett Logo */
+    .main-logo.hidden-xs.hidden-sm {
+	    filter: grayscale(100%) invert(100%);
+    }
+
+    /* Footer logos */
+    .caas .footer .info-area img {
+        filter: grayscale(100%) invert(100%);
     }
 }
